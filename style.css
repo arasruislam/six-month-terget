@@ -1,0 +1,142 @@
+@font-face {
+    font-family: GumelaFont;
+    src: url(./assets/fonts/Gumela.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: GumelaFont;
+    background-color: #f0e9c6;
+}
+
+
+/* Navbar Start */
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #23192D;
+}
+/* .nabvar-logo {
+    flex: 1;
+}
+.nabvar-nav {
+    flex: 1;
+}
+.nabvar-user {
+    flex: 1;
+} */
+.nav-logo > h1 {
+    color: #E1FFEE;
+}
+
+.nabvar-user{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.user-icon img {
+    width: 100%;
+}
+.user-name {
+    color: #E1FFEE;
+    font-size: 20px;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.nav-items ul li a {
+    color: #E1FFEE;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+
+.nav-items ul li a:hover {
+    color: #F57576;
+    text-decoration: underline;
+}
+
+/* Navbar End */
+
+/* Hero Section Start */
+
+.hero {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    padding: 0 80px;
+    
+}
+.hero-left {
+    flex: 1;
+    margin-top: 150px;
+}
+.hero-right {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.hero-hello {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.hero-img img {
+    width: 80%;
+    height: 80%;
+}
+
+.hero-title h2{
+    font-size: 34px;
+    background-color: #FFFFFF;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+.hero-titme-2 h2 {
+    font-size: 28px;
+    background-color: #FFFFFF;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-btn .btn {
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    padding: 5px 20px;
+    background-color: #23192D;
+    border-radius: 50px;
+    font-family: GumelaFont;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-btn .btn:hover {
+    color: #FFFFFF;
+    background-color: #F57576;
+    cursor: pointer;
+}
+
+.hero-right {
+    text-align: center;
+}
+
+/* Hero Section End */
